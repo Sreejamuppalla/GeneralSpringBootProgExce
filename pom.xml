@@ -39,15 +39,20 @@
       </repositories>
 	
 	
-      <distributionManagement> 
-        <id>spring-feed</id>
-        <url>https://pkgs.dev.azure.com/sreejamuppalla0218/artifact/_packaging/spring-feed/maven/v1</url>
-        <releases>
-        <enabled>true</enabled>
-        </releases>
-        <snapshots>
-        <enabled>true</enabled>
-        </snapshots>
+      <distributionManagement>
+	      
+	    <repository>
+               <id>spring-feed</id>
+               <url>https://pkgs.dev.azure.com/sreejamuppalla0218/artifact/_packaging/spring-feed/maven/v1</url>
+               <releases>
+               <enabled>true</enabled>
+              </releases>
+              <snapshots>
+             <enabled>true</enabled>
+             </snapshots>
+           </repository>  
+       
+        
       </distributionManagement> 
 	
 	<dependencies>

@@ -25,40 +25,31 @@
 		<sonar.organization>genspringboot-project</sonar.organization>
                 <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
-	
-	
-	<!-- only for Azure DevOps - Used the below tag for feeds -->
-      <repositories>
-       <repository>
-        <id>springfeed</id>                 
+        <repositories>
+         <repository>
+          <id>spring-feed</id>
           <url>https://pkgs.dev.azure.com/sreejamuppalla0218/artifact/_packaging/spring-feed/maven/v1</url>
           <releases>
-              <enabled>true</enabled>
+          <enabled>true</enabled>
           </releases>
           <snapshots>
-            <enabled>true</enabled>
-          </snapshots>
+          <enabled>true</enabled>
+         </snapshots>
         </repository>
-       </repositories>
-
-<!-- only for Azure DevOps - Used the below tag for feeds -->
-  <distributionManagement>
-     <repository>
-      <id>springfeed</id>
-       <url>https://pkgs.dev.azure.com/sreejamuppalla0218/artifact/_packaging/spring-feed/maven/v1</url>
-      <layout>default</layout>
-      <name>OMD Maven Release Feed</name>
-      <uniqueVersion>true</uniqueVersion>
-    </repository>
-    <snapshotRepository>
-      <id>springfeed</id>
-       <url>https://pkgs.dev.azure.com/sreejamuppalla0218/artifact/_packaging/spring-feed/maven/v1</url>
-      <layout>default</layout>
-      <name>OMD Maven Snapshot Feed</name>
-      <uniqueVersion>true</uniqueVersion>
-    </snapshotRepository>
-   </distributionManagement>     
-
+      </repositories>
+	
+	
+      <distributionManagement> 
+        <id>spring-feed</id>
+        <url>https://pkgs.dev.azure.com/sreejamuppalla0218/artifact/_packaging/spring-feed/maven/v1</url>
+        <releases>
+        <enabled>true</enabled>
+        </releases>
+        <snapshots>
+        <enabled>true</enabled>
+        </snapshots>
+      </distributionManagement> 
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

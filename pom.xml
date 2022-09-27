@@ -31,7 +31,7 @@
       <repositories>
        <repository>
         <id>springfeed</id>                 
-         <url>https://pkgs.dev.azure.com/SenthilAlagarsamy/az_artifact_demo/_packaging/springfeed/maven/v1</url>
+          <url>https://pkgs.dev.azure.com/sreejamuppalla0218/artifact/_packaging/spring-feed/maven/v1</url>
           <releases>
               <enabled>true</enabled>
           </releases>
@@ -45,14 +45,14 @@
   <distributionManagement>
      <repository>
       <id>springfeed</id>
-      <url>https://pkgs.dev.azure.com/SenthilAlagarsamy/az_artifact_demo/_packaging/springfeed/maven/v1</url>
+       <url>https://pkgs.dev.azure.com/sreejamuppalla0218/artifact/_packaging/spring-feed/maven/v1</url>
       <layout>default</layout>
       <name>OMD Maven Release Feed</name>
       <uniqueVersion>true</uniqueVersion>
     </repository>
     <snapshotRepository>
       <id>springfeed</id>
-      <url>https://pkgs.dev.azure.com/SenthilAlagarsamy/az_artifact_demo/_packaging/springfeed/maven/v1</url>
+       <url>https://pkgs.dev.azure.com/sreejamuppalla0218/artifact/_packaging/spring-feed/maven/v1</url>
       <layout>default</layout>
       <name>OMD Maven Snapshot Feed</name>
       <uniqueVersion>true</uniqueVersion>

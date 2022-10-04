@@ -27,22 +27,22 @@
 	</properties>
         <repositories>
          <repository>
-          <id>spring-feed</id>
-          <url>https://pkgs.dev.azure.com/srijachoudary1230039/artifact/_packaging/spring-feed/maven/v1</url>
-          <releases>
-          <enabled>true</enabled>
-          </releases>
-          <snapshots>
-          <enabled>true</enabled>
-         </snapshots>
-        </repository>
-      </repositories>
+              <id>spring-feedd</id>
+              <url>https://pkgs.dev.azure.com/srijachoudary1230039/artifact/_packaging/spring-feedd/maven/v1</url>
+              <releases>
+              <enabled>true</enabled>
+              </releases>
+              <snapshots>
+             <enabled>true</enabled>
+             </snapshots>
+         </repository>
+       </repositories>
 	
 	
       <distributionManagement>
 	      
 	    <repository>
-               <id>spring-feed</id>
+               <id>spring-feedd</id>
                <url>https://pkgs.dev.azure.com/srijachoudary1230039/artifact/_packaging/spring-feed/maven/v1</url>
                <releases>
                <enabled>true</enabled>

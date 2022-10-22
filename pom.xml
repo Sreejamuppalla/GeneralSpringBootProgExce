@@ -27,14 +27,14 @@
 	</properties>
         <repositories>
          <repository>
-              <id>spring-feedd</id>
-              <url>https://pkgs.dev.azure.com/srijachoudary1230039/Artifact/_packaging/Spring-Feeds/maven/v1</url>
-              <releases>
-              <enabled>true</enabled>
-              </releases>
-              <snapshots>
-              <enabled>true</enabled>
-              </snapshots>
+            <id>spring-feeeed</id>
+            <url>https://pkgs.dev.azure.com/chowdarysrija19990919/artifact/_packaging/spring-feeeed/maven/v1</url>
+            <releases>
+            <enabled>true</enabled>
+            </releases>
+            <snapshots>
+            <enabled>true</enabled>
+            </snapshots>
          </repository>
         </repositories>
 	
@@ -42,8 +42,8 @@
       <distributionManagement>
 	      
 	    <repository>
-               <id>spring-feedd</id>
-               <url>https://pkgs.dev.azure.com/srijachoudary1230039/Artifact/_packaging/Spring-Feeds/maven/v1</url>
+               <id>spring-feeeed</id>
+               <url>https://pkgs.dev.azure.com/chowdarysrija19990919/artifact/_packaging/spring-feeeed/maven/v1</url>
                <releases>
                <enabled>true</enabled>
                </releases>
